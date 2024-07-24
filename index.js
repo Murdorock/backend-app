@@ -14,7 +14,7 @@ const db = mysql2.createConnection({
     user:"root",
     port:"36385",
     password:"ABbYTEDSCIedUpqAnCwkMEMkimQUEZtV",
-    database:"railway"
+    database:"railway",
 });
 
 app.post("/create",(req,res)=>{
