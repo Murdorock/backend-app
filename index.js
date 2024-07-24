@@ -10,8 +10,9 @@ app.use(express.json());
 
 // Crear conexion a MYSQL
 const db = mysql2.createConnection({
-    host:"viaduct.proxy.rlwy.net:36385",
+    host:"viaduct.proxy.rlwy.net",
     user:"root",
+    port:"36385",
     password:"ABbYTEDSCIedUpqAnCwkMEMkimQUEZtV",
     database:"railway"
 });
